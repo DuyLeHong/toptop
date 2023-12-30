@@ -12,7 +12,7 @@ import 'package:provider/provider.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized(); //update app 2024
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
